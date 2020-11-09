@@ -197,5 +197,10 @@ void CMFCApplication5Dlg::OnBnClickedchu()
 	// TODO: 在此添加控件通知处理程序代码
 	UpdateData(1);
 	m_r = m_1 / m_2;
+	/*if(m_2=0){ 
+		AfxMessageBox("error" ,MB_OK | MB_ICONEXCLAMATION);
+		return;
+	}*/
+	
 	UpdateData(0);
 }
